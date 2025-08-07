@@ -1,17 +1,19 @@
+@import '../../../../../styles.scss';
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%);
+  background: linear-gradient(135deg, $gradient-light 0%, $primary 100%);
 }
 
 .login-card {
-  background: #fff;
+  background: $card-bg;
   padding: 2rem 2.5rem;
   border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(33, 147, 176, 0.15);
+  box-shadow: 0 8px 32px rgba($primary, 0.15);
   display: flex;
   flex-direction: column;
   min-width: 320px;
@@ -20,7 +22,7 @@
 
 .login-card h2 {
   margin-bottom: 1.5rem;
-  color: #2193b0;
+  color: $primary;
 }
 
 .input-group {
@@ -33,7 +35,7 @@
 .input-group label {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  color: #333;
+  color: $text-main;
 }
 
 .input-group input {
@@ -46,13 +48,13 @@
 }
 
 .input-group input:focus {
-  border-color: #2193b0;
+  border-color: $primary;
 }
 
 button[type="submit"] {
   width: 100%;
   padding: 0.8rem;
-  background: #2193b0;
+  background: $primary;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -63,7 +65,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background: #176b87;
+  background: $primary-dark;
 }
 
 .hide {
@@ -77,7 +79,7 @@ button[type="submit"]:hover {
 }
 
 .error-message {
-  color: #d32f2f;
+  color: $error;
   margin-top: 1rem;
   font-weight: 500;
   text-align: center;
