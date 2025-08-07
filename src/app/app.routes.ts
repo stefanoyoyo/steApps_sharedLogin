@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { AreaPrivataComponent } from './area-privata.component';
-import { LoginComponent } from './login.component';
+import { AreaPrivataComponent } from './components/products/area-privata.component';
+import { LoginComponent } from './components/login/login.component';
 
 export const routes: Routes = [
   { path: '', component: LoginComponent },
