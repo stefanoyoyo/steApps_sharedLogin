@@ -1,4 +1,12 @@
-    <div class="private-area">
-      <h2>Benvenuto nell'area privata!</h2>
-      <p>Questa sezione è accessibile solo dopo il login.</p>
-    </div>
+<div class="products-container">
+  <h2 class="products-title">Prodotti disponibili</h2>
+  <div class="products-grid">
+    <mat-card *ngFor="let product of products" class="product-card">
+      <img mat-card-image [src]="product.link" [alt]="product.name" />
+      <mat-card-content>
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
