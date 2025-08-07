@@ -35,4 +35,8 @@ export class LoginComponent {
   forgotPassword() {
     this.router.navigate(['/forgot']);
   }
+
+  register() {
+    this.router.navigate(['/register']);
+  }
 }
