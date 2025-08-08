@@ -74,5 +74,10 @@ export class ProductsComponent {
   openProductLink(link: string) {
     window.open(link, '_blank');
   }
+
+  addProduct(): void {
+    // Qui puoi aprire un dialog, mostrare un form, o aggiungere direttamente un prodotto
+    alert('Funzione di aggiunta nuovo prodotto!');
+  }
 }
-// This component represents a products area accessible only after login.
+
