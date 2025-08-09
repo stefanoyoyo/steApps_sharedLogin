@@ -25,42 +25,42 @@ export class ProductsComponent {
       image: 'https://cdn.pixabay.com/photo/2022/07/05/11/06/mountains-7302806__480.jpg',
       name: 'SportTracker',
       description: 'App per il monitoraggio delle attività sportive e del cibo assunto',
-      link: 'https://www.google.com/search?q=montagne+gratis',
+      link: 'https://ameapps.github.io/SportTracker/#/menu/homepage',
       tags: ['app'],
     },
     {
       image: 'https://1drv.ms/i/c/f343ed142930869c/IQTjurlK7ovuRaoUvV_-Z0xkAYbZha4TrbCHFx6zltjD0d8',
       name: 'GameScopa',
       description: 'Celebre gioco di carte italiano',
-      link: 'https://www.google.com/search?q=prodotto+3+gratis',
+      link: 'https://ameapps.github.io/GameScopa',
       tags: ['game']
     },
     {
       image: 'https://1drv.ms/i/c/f343ed142930869c/IQSkyAtp9mrgQY7NhqzPFWQhAdHiaU1GSZU_XS5QwM63VHk',
       name: 'MomsDay',
       description: 'App per la celebrazione della giornata della mamma',
-      link: 'https://www.google.com/search?q=prodotto+4+gratis',
+      link: 'https://ameapps.github.io/MomsDay2025/',
       tags: ['game']
     },
     {
       image: 'https://1drv.ms/i/c/f343ed142930869c/IQS6QCMacAoET7lgaav6UFUhAd7oQ2CE78A5qN0I3-3BN8c',
       name: 'WordleClone',
       description: 'App che simula il gioco Wordle',
-      link: 'https://www.google.com/search?q=prodotto+5+gratis',
+      link: 'https://ameapps.github.io/WordleClone/',
       tags: ['app']
     },
     {
       image: 'https://1drv.ms/i/c/f343ed142930869c/IQQptkhzQhBjQb9Q2UDvUyW8ARFWdYxZfTGlI3NNyL5djgU?width=320&height=398',
       name: 'LovePurpose',
       description: 'App per dichiarare il proprio amere ad una ragazza',
-      link: 'https://www.google.com/search?q=prodotto+6+gratis',
+      link: 'https://ameapps.github.io/LovePurpose/',
       tags: ['game']
     },
     {
       image: 'https://1drv.ms/i/c/f343ed142930869c/IQRsRF0jY2W8QYvl9BOkxeT-AQvhdaQy-pT_PkliSa54mNo',
       name: 'WorkTools',
       description: 'App che propone una serie di tools da usare sul lavoro',
-      link: 'https://www.google.com/search?q=prodotto+7+gratis',
+      link: 'https://ameapps.github.io/WorkToolsV2.0/',
       tags: ['app']
     }
   ];
